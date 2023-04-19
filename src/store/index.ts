@@ -1,9 +1,9 @@
 import { Store, createStore } from 'redux'
 import rootReducer from './ducks/rootReducer'
-import { NewsHighlightsOrderState } from './ducks/newsHighlightsOrder/types'
+import { PostsState } from './ducks/posts'
 
 export interface ApplicationState {
-    newsHighlightsOrder: NewsHighlightsOrderState
+    posts: PostsState
 }
 
 const store: Store<ApplicationState> = createStore(rootReducer)

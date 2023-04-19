@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import NewsHighlightsOrder from './newsHighlightsOrder'
+import Posts from './posts'
 
 export default combineReducers({
-    NewsHighlightsOrder
+    Posts
 })
