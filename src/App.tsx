@@ -1,11 +1,8 @@
 import './App.css'
+import Hero from './components/Hero'
 
 function App() {
-    return (
-        <div
-            style={{ width: '100%', height: '300px', border: '1px solid blue' }}
-        ></div>
-    )
+    return <Hero />
 }
 
 export default App
